@@ -1,0 +1,23 @@
+Installing dependencies from ../requirements.txt...
+Requirement already satisfied: pip in ./venv_esrgan/lib/python3.10/site-packages (22.2.2)
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x14eec8c051b0>: Failed to establish a new connection: [Errno 101] Network is unreachable')': /simple/pip/
+WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x14eec8c054e0>: Failed to establish a new connection: [Errno 101] Network is unreachable')': /simple/pip/
+WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x14eec8c05840>: Failed to establish a new connection: [Errno 101] Network is unreachable')': /simple/pip/
+WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x14eec8c059f0>: Failed to establish a new connection: [Errno 101] Network is unreachable')': /simple/pip/
+WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x14eec8c05ba0>: Failed to establish a new connection: [Errno 101] Network is unreachable')': /simple/pip/
+WARNING: There was an error checking the latest version of pip.
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x1518c4147400>: Failed to establish a new connection: [Errno 101] Network is unreachable')': /simple/absl-py/
+WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x1518c4147730>: Failed to establish a new connection: [Errno 101] Network is unreachable')': /simple/absl-py/
+WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x1518c41479d0>: Failed to establish a new connection: [Errno 101] Network is unreachable')': /simple/absl-py/
+WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x1518c4147b80>: Failed to establish a new connection: [Errno 101] Network is unreachable')': /simple/absl-py/
+WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x1518c4147d30>: Failed to establish a new connection: [Errno 101] Network is unreachable')': /simple/absl-py/
+ERROR: Could not find a version that satisfies the requirement absl-py==2.3.1 (from versions: none)
+ERROR: No matching distribution found for absl-py==2.3.1
+WARNING: There was an error checking the latest version of pip.
+Running test.py at Tue Nov 11 20:55:24 CST 2025...
+Traceback (most recent call last):
+  File "/scratch/user/priyalkhapra/directed/ESRGAN/test.py", line 3, in <module>
+    import cv2
+ModuleNotFoundError: No module named 'cv2'
+[Tue Nov 11 20:55:24 CST 2025] Duration: 00:00:00 (Exit code: 1)
+

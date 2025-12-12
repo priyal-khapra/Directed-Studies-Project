@@ -1,0 +1,13 @@
+==============================
+ Job started on Mon Nov 24 16:35:59 CST 2025
+ Running on node: fc003
+==============================
+[INFO] Activating conda environment...
+[INFO] Using Python: /scratch/user/priyalkhapra/.conda/envs/yolo_2/bin/python
+[INFO] Using Pip:    /scratch/user/priyalkhapra/.conda/envs/yolo_2/bin/pip
+[INFO] Checking PyTorch...
+Torch version: 2.6.0+cu124
+CUDA available: True
+GPU: Tesla T4
+[INFO] Running ESRGAN...
+[INFO] Job finished on Mon Nov 24 17:02:49 CST 2025

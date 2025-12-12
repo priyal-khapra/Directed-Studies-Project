@@ -1,0 +1,11 @@
+==============================
+ Job started on Mon Nov 24 16:52:45 CST 2025
+ Running on node: fc003
+==============================
+[INFO] Activating conda environment...
+[INFO] Using Python: /scratch/user/priyalkhapra/.conda/envs/yolo_2/bin/python
+[INFO] Using Pip:    /scratch/user/priyalkhapra/.conda/envs/yolo_2/bin/pip
+[INFO] Running ESRGAN...
+Saved annotated image to: everyday_output_v_comp.jpeg
+Saved detection metadata to: everyday_output_v_comp.json
+[INFO] Job finished on Mon Nov 24 17:36:58 CST 2025

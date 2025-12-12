@@ -1,0 +1,9 @@
+Using cache found in /home/priyalkhapra/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2025-11-18 Python-3.11.14 torch-2.6.0+cu124 CUDA:0 (Tesla T4, 15948MiB)
+
+Fusing layers... 
+YOLOv5s summary: 213 layers, 7225885 parameters, 0 gradients, 16.4 GFLOPs
+Adding AutoShape... 
+/home/priyalkhapra/.cache/torch/hub/ultralytics_yolov5_master/models/common.py:898: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(autocast):
+WARNING ⚠️ NMS time limit 0.550s exceeded

@@ -1,0 +1,19 @@
+==============================
+ Job started on Fri Nov 21 12:17:41 CST 2025
+ Running on node: fc099
+==============================
+[INFO] Activating conda environment...
+[INFO] Using Python: /scratch/user/priyalkhapra/.conda/envs/yolo_2/bin/python
+[INFO] Using Pip:    /scratch/user/priyalkhapra/.conda/envs/yolo_2/bin/pip
+[INFO] Checking PyTorch...
+Torch version: 2.6.0+cu124
+CUDA available: True
+GPU: NVIDIA A10
+[INFO] Running ESRGAN...
+Model path models/RRDB_ESRGAN_x4.pth. 
+Testing...
+1 everyday_comp
+2 test_image3_comp
+3 test_image
+4 test_image2_com
+[INFO] Job finished on Fri Nov 21 12:18:51 CST 2025

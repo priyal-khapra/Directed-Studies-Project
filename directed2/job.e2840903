@@ -1,0 +1,10 @@
+Using cache found in /home/priyalkhapra/.cache/torch/hub/ultralytics_yolov5_master
+YOLOv5 🚀 2025-11-18 Python-3.11.14 torch-2.6.0+cu124 CUDA:0 (NVIDIA A10, 24043MiB)
+
+Fusing layers... 
+YOLOv5s summary: 213 layers, 7225885 parameters, 0 gradients, 16.4 GFLOPs
+Adding AutoShape... 
+/scratch/user/priyalkhapra/.conda/envs/yolo_2/lib/python3.11/site-packages/PIL/Image.py:3432: DecompressionBombWarning: Image size (96000000 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+/home/priyalkhapra/.cache/torch/hub/ultralytics_yolov5_master/models/common.py:898: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(autocast):
